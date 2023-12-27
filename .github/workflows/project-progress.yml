@@ -28,9 +28,12 @@ on:
 jobs:
   move-assigned-card:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      projects: write
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project: OpenIM-V3.1
-          column: In Progress
+          project: 'OpenIM-V3.1'
+          column: 'In Progress'
           repo-token: ${{ secrets.BOT_GITHUB_TOKEN }}
