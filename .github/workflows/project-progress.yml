@@ -31,6 +31,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project: OpenIM-V3.1
-          column: In Progress
+          project: "Correct Project Name"
+          column: "Correct Column Name"
           repo-token: ${{ secrets.BOT_GITHUB_TOKEN }}
