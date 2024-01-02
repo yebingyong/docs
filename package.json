@@ -17,6 +17,7 @@
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier -w src docs",
     "format:docs": "prettier -w docs",
+    "test": "jest",
     "typecheck": "tsc"
   },
   "dependencies": {
