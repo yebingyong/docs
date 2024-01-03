@@ -31,6 +31,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project: openim-docs
-          column: In Progress
+          project: 'Correct Project Name' # Replace 'Correct Project Name' with the actual project name
+          column: 'Correct Column Name' # Replace 'Correct Column Name' with the actual column name
           repo-token: ${{ secrets.BOT_GITHUB_TOKEN }}
